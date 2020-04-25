@@ -77,7 +77,6 @@ router.put("/updateTaskDetailsOfUser", (request, response) => {
         }
     })
 })
-
 router.put("/updateOneTask", (request, response) => {
     let user = request.body;
     const id = user.body.id;
