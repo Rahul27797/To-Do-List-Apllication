@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {                             
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .navbar-custom { 
+  background-color: #69f0ae; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button {
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color:#b9f6ca; 
+  color: blue;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  /* color: #ffffff;
+}
+.bcolor
+{
+  background-color: #e0e0e0 ;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.newborder {
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.border1 {
+  border: 2px solid red;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.border2{
+  background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.p {
+  font-size: 14px;
+  color: red;
+  
+}
+
+.ulph3
+{
+  color : black,
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  
+}
+
+.h3color
+{
+  color:white;
+  
+}
+.center1
+{
+  text-align: center;
+} */
+
+.border1 {
+  
+  border: 2px  black;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.ulph3
+{
+  color : black,
+}
+
+.right1
+{
+  text-align: right;
+} 
+.tc
+{
+
+ text-align: center;
+}
+.border2{
+  border: 2px  black;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.s
+{
+  font-size: 16px;
+}
